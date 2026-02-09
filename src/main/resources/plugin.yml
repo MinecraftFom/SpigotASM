@@ -1,0 +1,12 @@
+name: SpigotASM
+version: '1.0.1'
+main: com.fomdev.sasm.init.SpigotASM
+api-version: '1.21'
+prefix: SASM
+authors: [ Fomdev ]
+load: POSTWORLD
+description: A library plugin for getting asm data from spigot
+commands:
+  sasm:
+    usage: /sasm list [annotation | plugin] <id> | /sasm locate <clazz> | /sasm rescan
+    permission: op
